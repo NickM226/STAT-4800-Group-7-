@@ -1,0 +1,24 @@
+---
+title: "Homework Title (ie. Homework 1)" 
+author: "Your name"
+fontsize: 12pt
+geometry: margin=1in
+urlcolor: black
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, highlight=FALSE)
+```
+
+## Problem XX   
+### Multiple parts can be separated by secondary headers.
+```{r}
+## Your code goes here without the ## in front.
+# A citation of used code goes here with the # in front.
+```
+Your explanation and comments go here.  
+Linebreaks are created using two spaces at the end of the previous line. If a linebreaks is needed after headers, the two spaces should be added to the header text.
+
+## References
+1. Your resources go here. Links should be surrounded by <>.
